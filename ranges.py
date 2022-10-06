@@ -28,27 +28,35 @@ def ranges():
   # step size just means how big of a jump/leap/step you 
   # take from the starting number to get to the next number.
   
-  # list(range(0,11,2))
+    print(list(range(0,11,2)))
   
-  # list(range(0,101,10))
+    print(list(range(0,101,10))) 
   
   ##############################ranges#####################################################
   
   # Range Practice #1
   # Create a list consisting of all the numbers from 2500 to 2585 (inclusive). Store this list in the variable my_list.
-  
-  
-  
+    my_list = list(range(2500, 2586))
+    print(my_list)
   # Range Practice #2
   # Using the range() function, create in a single line of code a list consisting of all numbers that are multiples of 3 from 3 to 300 (inclusive). Store this list in the variable my_list.
-  
-  
-  
+    my_list2 = print(list(range(3, 301, 3)))
   # Range Practice #3
   # Use the range() function and a loop to add the squares of all the numbers from 1 to 15 (inclusive). Store the result in a variable called sum_squares.
-  
-  
-  
+    sum_squares = 0
+    for number in range(1,16):
+      sum_squares = sum_squares + number ** 2
+      print(sum_squares)
+
+    # add a range of numbers 1 - 150
+    # using a for loop
+    # store the result im a variable called sum
+    sum = 0
+    for number in range(1,151):
+      # sum = sum + number
+      sum += number
+    print(sum)
+
   # For this purpose:
   
   # Create a range of values that you can iterate through in a loop
